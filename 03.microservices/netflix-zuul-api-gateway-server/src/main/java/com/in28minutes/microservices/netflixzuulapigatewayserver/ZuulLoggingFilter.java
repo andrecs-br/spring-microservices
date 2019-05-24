@@ -29,7 +29,7 @@ public class ZuulLoggingFilter extends ZuulFilter{
 	}
 
 	@Override
-	public String filterType() {
+	public String filterType() { //pre, post or error
 		return "pre";
 	}
 
